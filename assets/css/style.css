@@ -1,19 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
+th, td {
+    border: 1px solid #555;
 }
 
-a {
-    text-decoration: none;
+table {
+    border-collapse: collapse;
+    min-width:500px;
+    width: 100%;
+    max-width: 1100px;
+    empty-cells: hide;
 }
 
-ul {
-    list-style-type: armenian;
-    list-style-position: inside;
-}
-
-ol {
- list-style-type: square;
- list-style-image: url(./../img/airport.png);
- list-style-position: inside;
+caption {
+    text-align: right;
 }
